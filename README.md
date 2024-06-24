@@ -32,7 +32,9 @@ os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 
 -Ejecuta el script con el siguiente comando:
 
-```python Powerpoineator.py```
+```python
+python Powerpoineator.py
+```
 
 -Sigue las instrucciones del script para generar tu presentación.
 
