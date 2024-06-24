@@ -25,8 +25,9 @@ El script solicita al usuario un tema para la presentación. Luego, utiliza una 
 
 1. Guarde el `Powerpoineator.py` dentro de una carpeta.
 2. Abre desde dentro de la misma carpeta una terminal.
-3. Ejecute el script con el siguiente comando: `python Powerpoineator.py`
-4. Sigue las instrucciones del script para generar su presentación.
+3. Ejecute el script con el siguiente comando:
+python Powerpoineator.py
+5. Sigue las instrucciones del script para generar su presentación.
 
 # Licencia y Soporte
 
