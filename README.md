@@ -23,7 +23,10 @@ os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 ## Uso
 Guarda el archivo Powerpoineator.py dentro de una carpeta.
 Abre una terminal desde dentro de la misma carpeta.
-Ejecuta el script con el siguiente comando: python Powerpoineator.py
+Ejecuta el script con el siguiente comando: 
+```python
+python Powerpoineator.py
+```
 Sigue las instrucciones del script para generar tu presentación.
 
 ## Licencia y Soporte
