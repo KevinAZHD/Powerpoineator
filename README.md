@@ -26,7 +26,7 @@ Define tu token de API de Replicate en tu entorno:
 os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 ```
 ## Uso
--Guarda el archivo Powerpoineator.py dentro de una carpeta.
+-Guarde el archivo Powerpoineator.py dentro de una carpeta.
 
 -Abre una terminal dentro de la misma carpeta.
 
@@ -44,7 +44,7 @@ Este proyecto se ha creado de manera Open-Source bajo la licencia GPL (Licencia 
 
 ## Soporte
 
-Si tienes algún problema o duda con respecto a esta guía o al Powerpoineator, no dude en comunicarlo. Estamos aquí tanto yo como el co-creador del proyecto para ayudar y mejorar continuamente este recurso para la comunidad.
+Si tiene algún problema o duda con respecto a esta guía o al Powerpoineator, no dude en comunicarlo. Estamos aquí tanto yo como el co-creador del proyecto para ayudar y mejorar continuamente este recurso para la comunidad.
 
 Por favor, tenga en cuenta que este proyecto se mantiene con la intención de ser un recurso útil y profesional. Cualquier contribución o sugerencia para mejorar es siempre bienvenida.
 
