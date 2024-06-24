@@ -10,34 +10,38 @@ El script solicita al usuario un tema para la presentación. Luego, utiliza una 
 
 - Sistema operativo Windows con PowerPoint
 - Python 3 o superior
-  Instalar las siguientes bibliotecas:
-- pptx
-- subprocess
-- os
-- requests
-- replicate
-- PIL
-- time
+- Instalar las siguientes bibliotecas:
+- **pptx**
+- **subprocess**
+- **os**
+- **requests**
+- **replicate**
+- **PIL**
+- **time**
+- Tener una API en Replicate: https://replicate.com/
+- Definir tu API del Replicate en `os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"`
 
 ## Utilización
 
-1. Guarda el `Powerpoineator.py` dentro de una carpeta.
+1. Guarde el `Powerpoineator.py` dentro de una carpeta.
 2. Abre desde dentro de la misma carpeta una terminal.
-3. Ejecuta el script con el siguiente comando: `python main.py`
-4. Siga las instrucciones del script para generar su presentación.
+3. Ejecute el script con el siguiente comando: `python Powerpoineator.py`
+4. Sigue las instrucciones del script para generar su presentación.
 
 ## Licencia y Soporte
 
-Este proyecto se ha creado de manera Open-Source bajo la licencia GPL (Licencia Pública General de GNU). Esto significa que puedes copiar, modificar y distribuir el código, siempre y cuando mantengas la misma licencia y hagas público cualquier cambio que realices.
+Este proyecto se ha creado de manera Open-Source bajo la licencia GPL (Licencia Pública General de GNU). Esto significa que puede copiar, modificar y distribuir el código, siempre y cuando mantenga la misma licencia y haga público cualquier cambio que realice.
 
-Si tienes algún problema o duda con respecto a esta guía o al Powerpoineator, no dudes en comunicarte. Estoy aquí para ayudar y mejorar continuamente este recurso para la comunidad.
+Si tiene algún problema o duda con respecto a esta guía o al Powerpoineator, no dude en comunicarlo. Estamos aquí tanto yo como el colaborador del proyecto para ayudar y mejorar continuamente este recurso para la comunidad.
 
-Por favor, ten en cuenta que este proyecto se mantiene con la intención de ser un recurso útil y profesional. Cualquier contribución o sugerencia para mejorar es siempre bienvenida.
+Por favor, tenga en cuenta que este proyecto se mantiene con la intención de ser un recurso útil y profesional. Cualquier contribución o sugerencia para mejorar es siempre bienvenida.
 
-Gracias por usar esta guía y script de Python.
+Gracias por utilizar esta guía y script de Python.
 
 # Créditos
 
-- Agradecimientos y colaborador principal del proyecto: @Dgmtnz https://github.com/Dgmtnz
+- Agradecimientos y colaborador principal del proyecto: https://github.com/Dgmtnz
+
+- Todos los enlaces proporcionados anteriormente.
 
 - KevinAZ.
