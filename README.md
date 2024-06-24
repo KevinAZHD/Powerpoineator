@@ -20,13 +20,13 @@ Define tu token de API de Replicate en tu entorno:
 ```python
 os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 ```
-##Uso
+## Uso
 Guarda el archivo Powerpoineator.py dentro de una carpeta.
 Abre una terminal desde dentro de la misma carpeta.
 Ejecuta el script con el siguiente comando: python Powerpoineator.py
 Sigue las instrucciones del script para generar tu presentación.
 
-##Licencia y Soporte
+## Licencia y Soporte
 Este proyecto se ha creado de manera Open-Source bajo la licencia GPL (Licencia Pública General de GNU). Esto significa que puedes copiar, modificar y distribuir el código, siempre y cuando mantengas la misma licencia y hagas público cualquier cambio que realices.
 
 Si tienes algún problema o duda con respecto a esta guía o al Powerpoineator, no dudes en comunicarlo. Estamos aquí tanto yo como el co-creador del proyecto para ayudar y mejorar continuamente este recurso para la comunidad.
