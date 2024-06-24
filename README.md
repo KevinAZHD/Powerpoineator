@@ -30,7 +30,7 @@ os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 
 -Abre una terminal dentro de la misma carpeta.
 
--Ejecuta el script con el siguiente comando:
+-Ejecute el script con el siguiente comando:
 
 ```python
 python Powerpoineator.py
@@ -44,9 +44,9 @@ Este proyecto se ha creado de manera Open-Source bajo la licencia GPL (Licencia 
 
 ## Soporte
 
-Si tienes algún problema o duda con respecto a esta guía o al Powerpoineator, no dudes en comunicarlo. Estamos aquí tanto yo como el co-creador del proyecto para ayudar y mejorar continuamente este recurso para la comunidad.
+Si tienes algún problema o duda con respecto a esta guía o al Powerpoineator, no dude en comunicarlo. Estamos aquí tanto yo como el co-creador del proyecto para ayudar y mejorar continuamente este recurso para la comunidad.
 
-Por favor, ten en cuenta que este proyecto se mantiene con la intención de ser un recurso útil y profesional. Cualquier contribución o sugerencia para mejorar es siempre bienvenida.
+Por favor, tenga en cuenta que este proyecto se mantiene con la intención de ser un recurso útil y profesional. Cualquier contribución o sugerencia para mejorar es siempre bienvenida.
 
 # Créditos
 
