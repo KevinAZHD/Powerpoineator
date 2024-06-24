@@ -4,7 +4,7 @@ Powerpoineator es un script de Python que genera automáticamente presentaciones
 
 ## Descripción
 
-El script solicita al usuario un tema para la presentación. Luego, utiliza dos modelos de inteligencia artificial alojados en Replicate: Llama 3 y SDXL-Lightning by ByteDance.
+El script solicita al usuario un tema para la presentación. Luego, utiliza dos modelos de Inteligencia Artificial alojados en Replicate: Llama 3 y SDXL-Lightning by ByteDance.
 
 - **Llama 3** es un modelo de lenguaje que proporciona una estructura para la presentación.
 - **SDXL-Lightning by ByteDance** es un modelo que genera imágenes para cada diapositiva.
@@ -16,7 +16,7 @@ Las imágenes se guardan localmente y, finalmente, se crea y abre la presentaci�
 - Python 3 o superior
 - Bibliotecas Python: python-pptx, subprocess, os, requests, replicate, PIL, time
 - Una API en Replicate: https://replicate.com/
-- Sistema operativo Windows con PowerPoint (Opcional)
+- Sistema operativo Windows con PowerPoint (opcional)
 
 ## Configuración
 
@@ -26,7 +26,7 @@ Define tu token de API de Replicate en tu entorno:
 os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 ```
 ## Uso
--Guarde el archivo Powerpoineator.py dentro de una carpeta.
+-Guarde el archivo `Powerpoineator.py` dentro de una carpeta.
 
 -Abre una terminal dentro de la misma carpeta.
 
