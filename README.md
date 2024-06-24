@@ -28,7 +28,7 @@ El script solicita al usuario un tema para la presentación. Luego, utiliza una 
 3. Ejecute el script con el siguiente comando: `python Powerpoineator.py`
 4. Sigue las instrucciones del script para generar su presentación.
 
-## Licencia y Soporte
+# Licencia y Soporte
 
 Este proyecto se ha creado de manera Open-Source bajo la licencia GPL (Licencia Pública General de GNU). Esto significa que puede copiar, modificar y distribuir el código, siempre y cuando mantenga la misma licencia y haga público cualquier cambio que realice.
 
@@ -44,4 +44,4 @@ Gracias por utilizar esta guía y script de Python.
 
 - Todos los enlaces proporcionados anteriormente.
 
-- KevinAZ.
+- Kevin Adán Zamora.
