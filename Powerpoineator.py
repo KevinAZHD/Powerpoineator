@@ -28,7 +28,7 @@ def extraer_entre_llaves(texto):
         return "No se encontraron llaves en el texto."
 
 # Define tu token de API de Replicate
-os.environ["REPLICATE_API_TOKEN"] = "r8_X9acGEz9OM1vVcLIZh8nEbJlKE5uHQi2JtcN2"
+os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aquí"
 
 # Crea una nueva presentación para guardar las diapositivas
 presentation = Presentation()
