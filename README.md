@@ -2,14 +2,14 @@
 
 Powerpoineador-PhotomakerEdition es un script de Python que genera automáticamente presentaciones de PowerPoint a partir de un tema dado por el usuario, utilizando una serie de imágenes con cara dadas por el mismo usuario, y por último utiliza la Inteligencia Artificial para su creación.
 
-## Descripción
+## (CAMBIAR) Descripción
 
 El script solicita al usuario un tema para la presentación. Luego, utiliza dos modelos de Inteligencia Artificial alojados en Replicate: Llama 3 y SDXL-Lightning by ByteDance.
 
 - **Llama 3** es un modelo de lenguaje que proporciona una estructura para la presentación.
 - **SDXL-Lightning by ByteDance** es un modelo que genera imágenes para cada diapositiva.
 
-Las imágenes se guardan localmente y, finalmente, se crea y abre la presentación de PowerPoint con las imágenes generadas y el texto proporcionado por el modelo de lenguaje.
+Las imágenes se generan en base a las imágenes principales (`Imagen1.jpg` e `Imagen2.jpg`) en unas nuevas que corresponden a los contenidos de las diapositivas. Finalmente, se crea y abre la presentación de PowerPoint con las imágenes generadas y el texto proporcionado por el modelo de lenguaje.
 
 ## Requisitos
 
