@@ -14,9 +14,11 @@ from PIL import Image, ImageEnhance
 import time
 import base64
 
+# Solicita al usuario el tema del PowerPoint
 nuevo_string = input("¡HOLA! Por favor escriba de lo que quiera tratar su PowerPoint: ")
 print(nuevo_string)
 
+# Extrae el contenido entre llaves {} del texto proporcionado
 def extraer_entre_llaves(texto):
     inicio = texto.find('{')
     fin = texto.find('}') + 1
@@ -24,9 +26,10 @@ def extraer_entre_llaves(texto):
         return texto[inicio:fin]
     else:
         return "No se encontraron llaves en el texto."
-
+# Define tu token de API de Replicate
 os.environ["REPLICATE_API_TOKEN"] = "escriba_su_api_aqui"
 
+# Crea una nueva presentación para guardar las diapositivas
 presentation = Presentation()
 
 def obtener_respuesta_modelo():
@@ -59,7 +62,7 @@ def intentar_obtener_respuesta():
             return sections
         except SyntaxError:
             print("La respuesta del ChatGPT no se pudo convertir en una tupla válida. Intentando de nuevo...")
-            time.sleep(3)
+            time.sleep(15)
         except Exception as e:
             print(f"Ocurrió un error: {e}")
             return None
@@ -68,7 +71,7 @@ respuesta = intentar_obtener_respuesta()
 
 while respuesta is None:
     print("Esperando a que la máquina de la IA se encienda...")
-    time.sleep(60)
+    time.sleep(30)
     respuesta = intentar_obtener_respuesta()
 
 print(f"Directamente del ChatGPT sale: {respuesta}")
@@ -95,14 +98,14 @@ Image2 = encode_image("Imagen2.jpg")
 
 for section, content in sections.items():
     input={
-        "prompt": f"A man img {section} {content} ,photo in the context of a PowerPoint of {nuevo_string}",
+        "prompt": f"A person img {section} {content} ,photo in the context of a PowerPoint of {nuevo_string}",
         "num_steps": 50,
         "style_name": "Photographic (Default)",
         "input_image": f"data:image/jpeg;base64,{Image1}",
         "num_outputs": 1,
         "input_image2": f"data:image/jpeg;base64,{Image2}",
         "guidance_scale": 5,
-        "negative_prompt": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+        "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, jpeg artifacts, signature, watermark, username, blurry",
         "style_strength_ratio": 20,
         "disable_safety_checker": True
     }
